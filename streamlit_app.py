@@ -11,7 +11,7 @@ import altair as alt
  
 st.title('My First Streamlit App')
 
-st.text("The URL for this app is: https://huggingface.co/spaces/jnaiman/is445_demo_updateSP2026")
+st.text("The URL for this app is: https://jnaiman-is445-demo.streamlit.app/")
 
 source = "https://cdn.jsdelivr.net/npm/vega-datasets@v1.29.0/data/seattle-weather.csv"
 
