@@ -67,6 +67,6 @@ chart = alt.vconcat(points, bars, data=source, title="Seattle Weather: 2012-2015
 tab1, tab2 = st.tabs(["Streamlit theme (default)", "Altair native theme"])
 
 with tab1:
-    st.altair_chart(chart, theme="streamlit", width="stretch")
+    st.altair_chart(chart, theme="streamlit", use_container_width=True)
 with tab2:
-    st.altair_chart(chart, theme=None, width="stretch")
+    st.altair_chart(chart, theme=None, use_container_width=True)
